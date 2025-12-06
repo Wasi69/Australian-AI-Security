@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <style>
+      .title { font: bold 18px 'Segoe UI', sans-serif; fill: #1a1a2e; }
+      .subtitle { font: 13px 'Segoe UI', sans-serif; fill: #4a4a6a; }
+      .header { font: bold 12px 'Segoe UI', sans-serif; fill: white; }
+      .cell { font: 11px 'Segoe UI', sans-serif; fill: #333; }
+      .country { font: bold 12px 'Segoe UI', sans-serif; fill: #333; }
+      .flag { font: 16px sans-serif; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title">International AI Security Framework Comparison</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Australia vs major jurisdictions on key AI security dimensions</text>
+  
+  <!-- Table -->
+  <g transform="translate(30, 70)">
+    <!-- Header row -->
+    <rect x="0" y="0" width="150" height="35" fill="#2c3e50" rx="4 0 0 0"/>
+    <text x="75" y="22" text-anchor="middle" class="header">Dimension</text>
+    
+    <rect x="150" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="200" y="15" text-anchor="middle" class="flag">🇦🇺</text>
+    <text x="200" y="30" text-anchor="middle" class="header">Australia</text>
+    
+    <rect x="250" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="300" y="15" text-anchor="middle" class="flag">🇪🇺</text>
+    <text x="300" y="30" text-anchor="middle" class="header">EU</text>
+    
+    <rect x="350" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="400" y="15" text-anchor="middle" class="flag">🇬🇧</text>
+    <text x="400" y="30" text-anchor="middle" class="header">UK</text>
+    
+    <rect x="450" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="500" y="15" text-anchor="middle" class="flag">🇺🇸</text>
+    <text x="500" y="30" text-anchor="middle" class="header">US</text>
+    
+    <rect x="550" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="600" y="15" text-anchor="middle" class="flag">🇸🇬</text>
+    <text x="600" y="30" text-anchor="middle" class="header">Singapore</text>
+    
+    <rect x="650" y="0" width="100" height="35" fill="#2c3e50"/>
+    <text x="700" y="15" text-anchor="middle" class="flag">🇨🇦</text>
+    <text x="700" y="30" text-anchor="middle" class="header">Canada</text>
+    
+    <rect x="750" y="0" width="90" height="35" fill="#2c3e50" rx="0 4 0 0"/>
+    <text x="795" y="15" text-anchor="middle" class="flag">🇯🇵</text>
+    <text x="795" y="30" text-anchor="middle" class="header">Japan</text>
+    
+    <!-- Row 1: Binding AI Security Law -->
+    <rect x="0" y="35" width="150" height="40" fill="#ecf0f1"/>
+    <text x="10" y="60" class="country">Binding AI</text>
+    <text x="10" y="72" class="country">Security Law</text>
+    
+    <rect x="150" y="35" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="60" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="250" y="35" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="60" text-anchor="middle" class="cell">✅ AI Act</text>
+    
+    <rect x="350" y="35" width="100" height="40" fill="#fff3e0"/>
+    <text x="400" y="60" text-anchor="middle" class="cell">⚠️ Emerging</text>
+    
+    <rect x="450" y="35" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="60" text-anchor="middle" class="cell">⚠️ State-level</text>
+    
+    <rect x="550" y="35" width="100" height="40" fill="#ffebee"/>
+    <text x="600" y="60" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="650" y="35" width="100" height="40" fill="#fff3e0"/>
+    <text x="700" y="60" text-anchor="middle" class="cell">⚠️ Sector</text>
+    
+    <rect x="750" y="35" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="60" text-anchor="middle" class="cell">⚠️ Soft law</text>
+    
+    <!-- Row 2: Risk Classification -->
+    <rect x="0" y="75" width="150" height="40" fill="#fff"/>
+    <text x="10" y="100" class="country">Risk Classification</text>
+    
+    <rect x="150" y="75" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="100" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="250" y="75" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="100" text-anchor="middle" class="cell">✅ 4-tier</text>
+    
+    <rect x="350" y="75" width="100" height="40" fill="#fff3e0"/>
+    <text x="400" y="100" text-anchor="middle" class="cell">⚠️ Principles</text>
+    
+    <rect x="450" y="75" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="100" text-anchor="middle" class="cell">⚠️ NIST RMF</text>
+    
+    <rect x="550" y="75" width="100" height="40" fill="#e8f5e9"/>
+    <text x="600" y="100" text-anchor="middle" class="cell">✅ AI Verify</text>
+    
+    <rect x="650" y="75" width="100" height="40" fill="#fff3e0"/>
+    <text x="700" y="100" text-anchor="middle" class="cell">⚠️ ADM levels</text>
+    
+    <rect x="750" y="75" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="100" text-anchor="middle" class="cell">⚠️ Guidelines</text>
+    
+    <!-- Row 3: Adversarial Testing -->
+    <rect x="0" y="115" width="150" height="40" fill="#ecf0f1"/>
+    <text x="10" y="140" class="country">Adversarial Testing</text>
+    
+    <rect x="150" y="115" width="100" height="40" fill="#fff3e0"/>
+    <text x="200" y="133" text-anchor="middle" class="cell">⚠️ Detection</text>
+    <text x="200" y="147" text-anchor="middle" class="cell">only</text>
+    
+    <rect x="250" y="115" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="140" text-anchor="middle" class="cell">✅ Mandatory</text>
+    
+    <rect x="350" y="115" width="100" height="40" fill="#e8f5e9"/>
+    <text x="400" y="133" text-anchor="middle" class="cell">✅ AISI</text>
+    <text x="400" y="147" text-anchor="middle" class="cell">conducts</text>
+    
+    <rect x="450" y="115" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="140" text-anchor="middle" class="cell">⚠️ Recommended</text>
+    
+    <rect x="550" y="115" width="100" height="40" fill="#e8f5e9"/>
+    <text x="600" y="140" text-anchor="middle" class="cell">✅ Moonshot</text>
+    
+    <rect x="650" y="115" width="100" height="40" fill="#ffebee"/>
+    <text x="700" y="140" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="750" y="115" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="140" text-anchor="middle" class="cell">⚠️ AISI</text>
+    
+    <!-- Row 4: AI Security Body -->
+    <rect x="0" y="155" width="150" height="40" fill="#fff"/>
+    <text x="10" y="180" class="country">AI Security Body</text>
+    
+    <rect x="150" y="155" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="180" text-anchor="middle" class="cell">❌ Fragmented</text>
+    
+    <rect x="250" y="155" width="100" height="40" fill="#fff3e0"/>
+    <text x="300" y="180" text-anchor="middle" class="cell">⚠️ Distributed</text>
+    
+    <rect x="350" y="155" width="100" height="40" fill="#e8f5e9"/>
+    <text x="400" y="180" text-anchor="middle" class="cell">✅ AISI</text>
+    
+    <rect x="450" y="155" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="180" text-anchor="middle" class="cell">⚠️ NIST/NSA</text>
+    
+    <rect x="550" y="155" width="100" height="40" fill="#e8f5e9"/>
+    <text x="600" y="180" text-anchor="middle" class="cell">✅ IMDA</text>
+    
+    <rect x="650" y="155" width="100" height="40" fill="#ffebee"/>
+    <text x="700" y="180" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="750" y="155" width="90" height="40" fill="#e8f5e9"/>
+    <text x="795" y="180" text-anchor="middle" class="cell">✅ AISI</text>
+    
+    <!-- Row 5: Supply Chain -->
+    <rect x="0" y="195" width="150" height="40" fill="#ecf0f1"/>
+    <text x="10" y="220" class="country">Supply Chain</text>
+    
+    <rect x="150" y="195" width="100" height="40" fill="#fff3e0"/>
+    <text x="200" y="220" text-anchor="middle" class="cell">⚠️ Guidance</text>
+    
+    <rect x="250" y="195" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="220" text-anchor="middle" class="cell">✅ Mandatory</text>
+    
+    <rect x="350" y="195" width="100" height="40" fill="#fff3e0"/>
+    <text x="400" y="220" text-anchor="middle" class="cell">⚠️ Code</text>
+    
+    <rect x="450" y="195" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="220" text-anchor="middle" class="cell">⚠️ NIST</text>
+    
+    <rect x="550" y="195" width="100" height="40" fill="#fff3e0"/>
+    <text x="600" y="220" text-anchor="middle" class="cell">⚠️ AI Verify</text>
+    
+    <rect x="650" y="195" width="100" height="40" fill="#ffebee"/>
+    <text x="700" y="220" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="750" y="195" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="220" text-anchor="middle" class="cell">⚠️ Guidelines</text>
+    
+    <!-- Row 6: Foundation Models -->
+    <rect x="0" y="235" width="150" height="40" fill="#fff"/>
+    <text x="10" y="260" class="country">Foundation Models</text>
+    
+    <rect x="150" y="235" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="260" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="250" y="235" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="260" text-anchor="middle" class="cell">✅ GPAI rules</text>
+    
+    <rect x="350" y="235" width="100" height="40" fill="#e8f5e9"/>
+    <text x="400" y="260" text-anchor="middle" class="cell">✅ AISI focus</text>
+    
+    <rect x="450" y="235" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="253" text-anchor="middle" class="cell">⚠️ EO</text>
+    <text x="500" y="267" text-anchor="middle" class="cell">(rescinded)</text>
+    
+    <rect x="550" y="235" width="100" height="40" fill="#fff3e0"/>
+    <text x="600" y="260" text-anchor="middle" class="cell">⚠️ Emerging</text>
+    
+    <rect x="650" y="235" width="100" height="40" fill="#ffebee"/>
+    <text x="700" y="260" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="750" y="235" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="260" text-anchor="middle" class="cell">⚠️ AISI</text>
+    
+    <!-- Row 7: Incident Reporting -->
+    <rect x="0" y="275" width="150" height="40" fill="#ecf0f1"/>
+    <text x="10" y="300" class="country">Incident Reporting</text>
+    
+    <rect x="150" y="275" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="293" text-anchor="middle" class="cell">❌ No</text>
+    <text x="200" y="307" text-anchor="middle" class="cell">(AI-specific)</text>
+    
+    <rect x="250" y="275" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="300" text-anchor="middle" class="cell">✅ High-risk AI</text>
+    
+    <rect x="350" y="275" width="100" height="40" fill="#fff3e0"/>
+    <text x="400" y="300" text-anchor="middle" class="cell">⚠️ Emerging</text>
+    
+    <rect x="450" y="275" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="300" text-anchor="middle" class="cell">⚠️ Sector</text>
+    
+    <rect x="550" y="275" width="100" height="40" fill="#ffebee"/>
+    <text x="600" y="300" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="650" y="275" width="100" height="40" fill="#ffebee"/>
+    <text x="700" y="300" text-anchor="middle" class="cell">❌ No</text>
+    
+    <rect x="750" y="275" width="90" height="40" fill="#fff3e0"/>
+    <text x="795" y="300" text-anchor="middle" class="cell">⚠️ Voluntary</text>
+    
+    <!-- Row 8: Private Sector -->
+    <rect x="0" y="315" width="150" height="40" fill="#fff" rx="0 0 0 4"/>
+    <text x="10" y="340" class="country">Private Sector</text>
+    
+    <rect x="150" y="315" width="100" height="40" fill="#ffebee"/>
+    <text x="200" y="340" text-anchor="middle" class="cell">❌ Voluntary</text>
+    
+    <rect x="250" y="315" width="100" height="40" fill="#e8f5e9"/>
+    <text x="300" y="340" text-anchor="middle" class="cell">✅ All high-risk</text>
+    
+    <rect x="350" y="315" width="100" height="40" fill="#fff3e0"/>
+    <text x="400" y="340" text-anchor="middle" class="cell">⚠️ Voluntary+</text>
+    
+    <rect x="450" y="315" width="100" height="40" fill="#fff3e0"/>
+    <text x="500" y="340" text-anchor="middle" class="cell">⚠️ Mixed</text>
+    
+    <rect x="550" y="315" width="100" height="40" fill="#fff3e0"/>
+    <text x="600" y="340" text-anchor="middle" class="cell">⚠️ Voluntary+</text>
+    
+    <rect x="650" y="315" width="100" height="40" fill="#fff3e0"/>
+    <text x="700" y="340" text-anchor="middle" class="cell">⚠️ Federal only</text>
+    
+    <rect x="750" y="315" width="90" height="40" fill="#fff3e0" rx="0 0 4 0"/>
+    <text x="795" y="340" text-anchor="middle" class="cell">⚠️ Voluntary</text>
+    
+    <!-- Table border -->
+    <rect x="0" y="0" width="840" height="355" fill="none" stroke="#ccc" stroke-width="1" rx="4"/>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(30, 440)">
+    <text x="0" y="15" class="country">Legend:</text>
+    <rect x="70" y="5" width="20" height="15" fill="#e8f5e9" stroke="#ccc" rx="2"/>
+    <text x="95" y="17" class="cell">✅ Comprehensive</text>
+    <rect x="200" y="5" width="20" height="15" fill="#fff3e0" stroke="#ccc" rx="2"/>
+    <text x="225" y="17" class="cell">⚠️ Partial/Emerging</text>
+    <rect x="360" y="5" width="20" height="15" fill="#ffebee" stroke="#ccc" rx="2"/>
+    <text x="385" y="17" class="cell">❌ Gap</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="450" y="485" text-anchor="middle" class="subtitle">Australian AI Security Framework Index | CC BY 4.0 | December 2025</text>
+</svg>

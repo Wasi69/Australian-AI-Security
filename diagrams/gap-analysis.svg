@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550">
+  <defs>
+    <style>
+      .title { font: bold 18px 'Segoe UI', sans-serif; fill: #1a1a2e; }
+      .subtitle { font: 13px 'Segoe UI', sans-serif; fill: #4a4a6a; }
+      .gap-title { font: bold 11px 'Segoe UI', sans-serif; fill: white; }
+      .gap-desc { font: 10px 'Segoe UI', sans-serif; fill: rgba(255,255,255,0.9); }
+      .label { font: 11px 'Segoe UI', sans-serif; fill: #666; }
+      .axis-label { font: bold 12px 'Segoe UI', sans-serif; fill: #333; }
+    </style>
+    <linearGradient id="critical-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc3545"/>
+      <stop offset="100%" style="stop-color:#a71d2a"/>
+    </linearGradient>
+    <linearGradient id="high-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd7e14"/>
+      <stop offset="100%" style="stop-color:#d63384"/>
+    </linearGradient>
+    <linearGradient id="medium-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffc107"/>
+      <stop offset="100%" style="stop-color:#e0a800"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="550" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Australian AI Security Gap Analysis</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">Priority matrix: Impact vs Effort to Close</text>
+  
+  <!-- Grid background -->
+  <g transform="translate(100, 80)">
+    <!-- Quadrant backgrounds -->
+    <rect x="0" y="0" width="300" height="180" fill="#ffebee" opacity="0.3"/>
+    <rect x="300" y="0" width="300" height="180" fill="#fff3e0" opacity="0.3"/>
+    <rect x="0" y="180" width="300" height="180" fill="#e3f2fd" opacity="0.3"/>
+    <rect x="300" y="180" width="300" height="180" fill="#e8f5e9" opacity="0.3"/>
+    
+    <!-- Grid lines -->
+    <line x1="0" y1="180" x2="600" y2="180" stroke="#ccc" stroke-dasharray="5,5"/>
+    <line x1="300" y1="0" x2="300" y2="360" stroke="#ccc" stroke-dasharray="5,5"/>
+    
+    <!-- Axes -->
+    <line x1="0" y1="360" x2="600" y2="360" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="360" stroke="#333" stroke-width="2"/>
+    
+    <!-- Axis labels -->
+    <text x="300" y="390" text-anchor="middle" class="axis-label">Effort to Close →</text>
+    <text x="-180" y="-15" transform="rotate(-90)" text-anchor="middle" class="axis-label">Impact →</text>
+    
+    <!-- Quadrant labels -->
+    <text x="150" y="90" text-anchor="middle" class="label" style="font-size:10px;fill:#999">HIGH IMPACT</text>
+    <text x="150" y="102" text-anchor="middle" class="label" style="font-size:10px;fill:#999">LOW EFFORT</text>
+    <text x="450" y="90" text-anchor="middle" class="label" style="font-size:10px;fill:#999">HIGH IMPACT</text>
+    <text x="450" y="102" text-anchor="middle" class="label" style="font-size:10px;fill:#999">HIGH EFFORT</text>
+    <text x="150" y="270" text-anchor="middle" class="label" style="font-size:10px;fill:#999">LOW IMPACT</text>
+    <text x="150" y="282" text-anchor="middle" class="label" style="font-size:10px;fill:#999">LOW EFFORT</text>
+    <text x="450" y="270" text-anchor="middle" class="label" style="font-size:10px;fill:#999">LOW IMPACT</text>
+    <text x="450" y="282" text-anchor="middle" class="label" style="font-size:10px;fill:#999">HIGH EFFORT</text>
+    
+    <!-- Critical Priority Gaps (High Impact) -->
+    <!-- Gap 1: Safety/Security conflation - Low effort, High impact -->
+    <g transform="translate(60, 30)" filter="url(#shadow)">
+      <rect width="160" height="50" fill="url(#critical-grad)" rx="6"/>
+      <text x="80" y="18" text-anchor="middle" class="gap-title">Safety ≠ Security</text>
+      <text x="80" y="32" text-anchor="middle" class="gap-desc">Conflation in national</text>
+      <text x="80" y="44" text-anchor="middle" class="gap-desc">approach needs clarity</text>
+      <circle cx="150" cy="10" r="8" fill="#fff"/>
+      <text x="150" y="14" text-anchor="middle" style="font:bold 10px sans-serif;fill:#dc3545">🔴</text>
+    </g>
+    
+    <!-- Gap 2: No risk classification - Medium effort, High impact -->
+    <g transform="translate(220, 120)" filter="url(#shadow)">
+      <rect width="160" height="50" fill="url(#critical-grad)" rx="6"/>
+      <text x="80" y="18" text-anchor="middle" class="gap-title">No Risk Classification</text>
+      <text x="80" y="32" text-anchor="middle" class="gap-desc">No EU AI Act-style</text>
+      <text x="80" y="44" text-anchor="middle" class="gap-desc">tiered system</text>
+      <circle cx="150" cy="10" r="8" fill="#fff"/>
+      <text x="150" y="14" text-anchor="middle" style="font:bold 10px sans-serif;fill:#dc3545">🔴</text>
+    </g>
+    
+    <!-- Gap 3: No private sector requirements - High effort, High impact -->
+    <g transform="translate(400, 50)" filter="url(#shadow)">
+      <rect width="180" height="50" fill="url(#critical-grad)" rx="6"/>
+      <text x="90" y="18" text-anchor="middle" class="gap-title">No Private Sector Reqs</text>
+      <text x="90" y="32" text-anchor="middle" class="gap-desc">All binding obligations</text>
+      <text x="90" y="44" text-anchor="middle" class="gap-desc">are government-only</text>
+      <circle cx="170" cy="10" r="8" fill="#fff"/>
+      <text x="170" y="14" text-anchor="middle" style="font:bold 10px sans-serif;fill:#dc3545">🔴</text>
+    </g>
+    
+    <!-- High Priority Gaps -->
+    <!-- Gap 4: No adversarial testing - Medium effort -->
+    <g transform="translate(180, 180)" filter="url(#shadow)">
+      <rect width="150" height="45" fill="url(#high-grad)" rx="6"/>
+      <text x="75" y="17" text-anchor="middle" class="gap-title">No Adversarial Testing</text>
+      <text x="75" y="32" text-anchor="middle" class="gap-desc">Detection only,</text>
+      <text x="75" y="43" text-anchor="middle" class="gap-desc">no pre-deployment reqs</text>
+    </g>
+    
+    <!-- Gap 5: No incident reporting -->
+    <g transform="translate(350, 185)" filter="url(#shadow)">
+      <rect width="150" height="45" fill="url(#high-grad)" rx="6"/>
+      <text x="75" y="17" text-anchor="middle" class="gap-title">No AI Incident Reporting</text>
+      <text x="75" y="32" text-anchor="middle" class="gap-desc">No AI-specific</text>
+      <text x="75" y="43" text-anchor="middle" class="gap-desc">reporting regime</text>
+    </g>
+    
+    <!-- Gap 6: Fragmented AI Security body -->
+    <g transform="translate(30, 190)" filter="url(#shadow)">
+      <rect width="140" height="45" fill="url(#high-grad)" rx="6"/>
+      <text x="70" y="17" text-anchor="middle" class="gap-title">No AI Security Body</text>
+      <text x="70" y="32" text-anchor="middle" class="gap-desc">Functions fragmented</text>
+      <text x="70" y="43" text-anchor="middle" class="gap-desc">across agencies</text>
+    </g>
+    
+    <!-- Gap 7: Foundation model governance -->
+    <g transform="translate(420, 250)" filter="url(#shadow)">
+      <rect width="160" height="45" fill="url(#high-grad)" rx="6"/>
+      <text x="80" y="17" text-anchor="middle" class="gap-title">No Foundation Model Gov</text>
+      <text x="80" y="32" text-anchor="middle" class="gap-desc">No GPAI-style rules</text>
+      <text x="80" y="43" text-anchor="middle" class="gap-desc">for frontier models</text>
+    </g>
+    
+    <!-- Gap 8: Supply chain -->
+    <g transform="translate(230, 250)" filter="url(#shadow)">
+      <rect width="140" height="45" fill="url(#high-grad)" rx="6"/>
+      <text x="70" y="17" text-anchor="middle" class="gap-title">Limited Supply Chain</text>
+      <text x="70" y="32" text-anchor="middle" class="gap-desc">Guidance only,</text>
+      <text x="70" y="43" text-anchor="middle" class="gap-desc">not mandatory</text>
+    </g>
+    
+    <!-- Medium Priority Gaps -->
+    <!-- Gap 9: Workforce -->
+    <g transform="translate(180, 310)" filter="url(#shadow)">
+      <rect width="130" height="40" fill="url(#medium-grad)" rx="6"/>
+      <text x="65" y="16" text-anchor="middle" class="gap-title" style="fill:#333">Workforce Strategy</text>
+      <text x="65" y="30" text-anchor="middle" class="gap-desc" style="fill:#333">No AI security</text>
+      <text x="65" y="40" text-anchor="middle" class="gap-desc" style="fill:#333">skills pathway</text>
+    </g>
+    
+    <!-- Gap 10: Research funding -->
+    <g transform="translate(430, 310)" filter="url(#shadow)">
+      <rect width="130" height="40" fill="url(#medium-grad)" rx="6"/>
+      <text x="65" y="16" text-anchor="middle" class="gap-title" style="fill:#333">Research Funding</text>
+      <text x="65" y="30" text-anchor="middle" class="gap-desc" style="fill:#333">Limited AI security</text>
+      <text x="65" y="40" text-anchor="middle" class="gap-desc" style="fill:#333">research investment</text>
+    </g>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(100, 470)">
+    <text x="0" y="15" class="label" style="font-weight:bold">Priority:</text>
+    <rect x="60" y="5" width="15" height="15" fill="url(#critical-grad)" rx="3"/>
+    <text x="80" y="17" class="label">🔴 Critical</text>
+    <rect x="150" y="5" width="15" height="15" fill="url(#high-grad)" rx="3"/>
+    <text x="170" y="17" class="label">High</text>
+    <rect x="220" y="5" width="15" height="15" fill="url(#medium-grad)" rx="3"/>
+    <text x="240" y="17" class="label">Medium</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="530" text-anchor="middle" class="subtitle">Australian AI Security Framework Index | CC BY 4.0 | December 2025</text>
+</svg>
