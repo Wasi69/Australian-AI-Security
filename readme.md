@@ -27,11 +27,11 @@ Australia has **75+ AI-related security documents** spread across 11 jurisdictio
 
 This index provides:
 
-âœ… **Complete inventory** of all Australian AI Security documents  
-âœ… **Relationship mapping** showing how frameworks connect  
-âœ… **Gap analysis** comparing Australia to international standards  
-âœ… **Practical navigation** for compliance and implementation  
-âœ… **Regular updates** as new documents are released  
+**Complete inventory** of all Australian AI Security documents  
+**Relationship mapping** showing how frameworks connect  
+**Gap analysis** comparing Australia to international standards  
+**Practical navigation** for compliance and implementation  
+**Regular updates** as new documents are released  
 
 ---
 
@@ -39,60 +39,16 @@ This index provides:
 
 | Section | Description |
 |---------|-------------|
-| [ðŸ“‹ Complete Inventory](docs/INVENTORY.md) | All 75+ documents in one place |
-| [ðŸ›ï¸ Federal Frameworks](docs/FEDERAL.md) | ACSC, PSPF, ISM, SOCI, DTA, regulators |
-| [ðŸ—ºï¸ State & Territory](docs/STATES.md) | NSW, VIC, QLD, SA, WA, TAS, NT, ACT |
-| [ðŸŒ International Comparison](docs/INTERNATIONAL.md) | Australia vs EU, UK, US, Singapore |
-| [âš ï¸ Gap Analysis](docs/GAPS.md) | What's missing from Australia's approach |
-| [ðŸ”— Knowledge Graph](docs/KNOWLEDGE-GRAPH.md) | Visual map of framework relationships |
-| [ðŸ“… Changelog](CHANGELOG.md) | Update history |
+| [Complete Inventory](docs/INVENTORY.md) | All 75+ documents in one place |
+| [Federal Frameworks](docs/FEDERAL.md) | ACSC, PSPF, ISM, SOCI, DTA, regulators |
+| [State & Territory](docs/STATES.md) | NSW, VIC, QLD, SA, WA, TAS, NT, ACT |
+| [International Comparison](docs/INTERNATIONAL.md) | Australia vs EU, UK, US, Singapore |
+| [Gap Analysis](docs/GAPS.md) | What's missing from Australia's approach |
+| [Knowledge Graph](docs/KNOWLEDGE-GRAPH.md) | Visual map of framework relationships |
+| [Changelog](CHANGELOG.md) | Update history |
 
 ---
 
-## The Australian AI Security Landscape
-
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                        AUSTRALIAN AI SECURITY                               â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                                             â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”‚
-â”‚  â”‚                    MANDATORY (Government)                            â”‚   â”‚
-â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚   â”‚
-â”‚  â”‚  â”‚     ISM     â”‚  â”‚    PSPF     â”‚  â”‚  SOCI Act   â”‚  â”‚ DTA Policy â”‚  â”‚   â”‚
-â”‚  â”‚  â”‚ AI Controls â”‚  â”‚ AI Provisionsâ”‚  â”‚   CIRMP     â”‚  â”‚   v2.0     â”‚  â”‚   â”‚
-â”‚  â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚   â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â”‚
-â”‚                                                                             â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”‚
-â”‚  â”‚                    SECTOR-SPECIFIC (Binding)                         â”‚   â”‚
-â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚   â”‚
-â”‚  â”‚  â”‚ APRA CPS234 â”‚  â”‚  ASIC 798   â”‚  â”‚   eSafety   â”‚  â”‚    OAIC    â”‚  â”‚   â”‚
-â”‚  â”‚  â”‚   CPS230    â”‚  â”‚  Guidance   â”‚  â”‚  Standards  â”‚  â”‚  APP 11    â”‚  â”‚   â”‚
-â”‚  â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚   â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â”‚
-â”‚                                                                             â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”‚
-â”‚  â”‚                    VOLUNTARY (All Sectors)                           â”‚   â”‚
-â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚   â”‚
-â”‚  â”‚  â”‚    ACSC     â”‚  â”‚  AI6/NAIC   â”‚  â”‚  AI Ethics  â”‚  â”‚  National  â”‚  â”‚   â”‚
-â”‚  â”‚  â”‚  Guidance   â”‚  â”‚  Guidance   â”‚  â”‚ Principles  â”‚  â”‚ Framework  â”‚  â”‚   â”‚
-â”‚  â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚   â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â”‚
-â”‚                                                                             â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”‚
-â”‚  â”‚                    STATE/TERRITORY FRAMEWORKS                        â”‚   â”‚
-â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â”  â”‚   â”‚
-â”‚  â”‚  â”‚ NSW â”‚ â”‚ VIC â”‚ â”‚ QLD â”‚ â”‚ SA  â”‚ â”‚ WA  â”‚ â”‚ TAS â”‚ â”‚ NT  â”‚ â”‚ ACT â”‚  â”‚   â”‚
-â”‚  â”‚  â”‚ â–ˆâ–ˆâ–ˆ â”‚ â”‚ â–ˆâ–ˆâ–‘ â”‚ â”‚ â–ˆâ–ˆâ–‘ â”‚ â”‚ â–ˆâ–‘â–‘ â”‚ â”‚ â–ˆâ–ˆâ–ˆ â”‚ â”‚ â–‘â–‘â–‘ â”‚ â”‚ â–ˆâ–‘â–‘ â”‚ â”‚ â–ˆâ–ˆâ–‘ â”‚  â”‚   â”‚
-â”‚  â”‚  â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”˜  â”‚   â”‚
-â”‚  â”‚          â–ˆâ–ˆâ–ˆ = Comprehensive   â–ˆâ–ˆâ–‘ = Developing   â–ˆâ–‘â–‘ = Basic      â”‚   â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â”‚
-â”‚                                                                             â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
-
----
 
 ## Key Findings
 
@@ -105,12 +61,12 @@ This index provides:
 
 ### What Australia Lacks
 
-- âŒ **No mandatory AI security for private sector** (unlike EU AI Act)
-- âŒ **No systematic risk classification** (EU has prohibited/high/limited/minimal)
-- âŒ **No AI incident reporting regime** (despite SOCI cyber incident rules)
-- âŒ **No foundation model governance** (EU has GPAI obligations)
-- âŒ **No adversarial testing mandates** (EU requires for systemic risk models)
-- âŒ **No consolidated AI Security body** (UK renamed theirs to AI *Security* Institute)
+- **No mandatory AI security for private sector** (unlike EU AI Act)
+- **No systematic risk classification** (EU has prohibited/high/limited/minimal)
+- **No AI incident reporting regime** (despite SOCI cyber incident rules)
+- **No foundation model governance** (EU has GPAI obligations)
+- **No adversarial testing mandates** (EU requires for systemic risk models)
+- **No consolidated AI Security body** (UK renamed theirs to AI *Security* Institute)
 
 ### The Safety â‰  Security Problem
 
@@ -135,13 +91,13 @@ Start with the [Complete Inventory](docs/INVENTORY.md) to identify which framewo
 - Obligation type (mandatory/voluntary)
 
 ### For Security Practitioners
-The [Federal Frameworks](docs/FEDERAL.md) section details ACSC guidance with practical implementation notes. Cross-reference with [ISM AI Controls](#ism-ai-controls) for government systems.
+The [Federal Frameworks](docs/FEDERAL.md) section details ACSC guidance with practical implementation notes.
 
 ### For Policy Analysts
 The [Gap Analysis](docs/GAPS.md) and [International Comparison](docs/INTERNATIONAL.md) provide the evidence base for advocacy and submissions.
 
 ### For Researchers
-The [Knowledge Graph](docs/KNOWLEDGE-GRAPH.md) visualises relationships. Raw data in `/data` folder for analysis.
+The [Knowledge Graph](docs/KNOWLEDGE-GRAPH.md) visualises relationships.
 
 ---
 
@@ -161,10 +117,10 @@ The Information Security Manual contains three AI-specific controls (as of Septe
 
 This is a community resource. Contributions welcome:
 
-- ðŸ“ **Document updates**: New policies, version changes, corrections
-- ðŸ”— **Relationship mapping**: Identify connections between frameworks
-- ðŸŒ **International comparisons**: Additional jurisdictions
-- ðŸ› ï¸ **Tooling**: Compliance checklists, automation, visualisations
+- **Document updates**: New policies, version changes, corrections
+- **Relationship mapping**: Identify connections between frameworks
+- **International comparisons**: Additional jurisdictions
+- **Tooling**: Compliance checklists, automation, visualisations
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -174,8 +130,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Ben Kereopa-Yorke**  
 Senior AI Security Specialist | OWASP ML Security Top 10 Co-Lead  
-[LinkedIn](https://www.linkedin.com/in/benkereopa-yorke/) | [GitHub](https://github.com/benky)
-
 ---
 
 ## License
