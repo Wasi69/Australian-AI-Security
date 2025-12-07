@@ -70,38 +70,7 @@ Individual frameworks implement their own tiers:
 
 **EU AI Act Risk Tiers:**
 
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                    EU AI ACT RISK PYRAMID                       â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                                 â”‚
-â”‚                    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                           â”‚
-â”‚                    â”‚  PROHIBITED   â”‚  Banned outright          â”‚
-â”‚                    â”‚  (Unacceptableâ”‚  Social scoring,          â”‚
-â”‚                    â”‚   Risk)       â”‚  manipulation, etc.       â”‚
-â”‚                    â””â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”˜                           â”‚
-â”‚                            â”‚                                    â”‚
-â”‚                   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”                          â”‚
-â”‚                   â”‚   HIGH RISK     â”‚  Strict requirements     â”‚
-â”‚                   â”‚                 â”‚  Conformity assessment   â”‚
-â”‚                   â”‚  CI, employment,â”‚  Registration            â”‚
-â”‚                   â”‚  credit, etc.   â”‚                          â”‚
-â”‚                   â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜                          â”‚
-â”‚                            â”‚                                    â”‚
-â”‚              â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                     â”‚
-â”‚              â”‚      LIMITED RISK         â”‚  Transparency       â”‚
-â”‚              â”‚   Chatbots, deepfakes     â”‚  obligations        â”‚
-â”‚              â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                     â”‚
-â”‚                            â”‚                                    â”‚
-â”‚         â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                â”‚
-â”‚         â”‚           MINIMAL RISK              â”‚  No specific   â”‚
-â”‚         â”‚        Most AI applications         â”‚  requirements  â”‚
-â”‚         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                â”‚
-â”‚                                                                 â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
-
-**Australia has no equivalent.**
+Australia has no equivalent.
 
 ### Impact
 
@@ -173,13 +142,13 @@ ISM controls apply to LLM implementation but not to model development, training,
 
 | Requirement | Standard GPAI | Systemic Risk GPAI |
 |-------------|---------------|-------------------|
-| Technical documentation | âœ… | âœ… |
-| Training data summary | âœ… | âœ… |
-| Copyright compliance | âœ… | âœ… |
-| Model evaluation | âŒ | âœ… |
-| Adversarial testing | âŒ | âœ… |
-| Incident reporting | âŒ | âœ… |
-| Systemic risk assessment | âŒ | âœ… |
+| Technical documentation |  |  |
+| Training data summary |  |  |
+| Copyright compliance |  |  |
+| Model evaluation |  |  |
+| Adversarial testing |  |  |
+| Incident reporting |  |  |
+| Systemic risk assessment |  |  |
 
 ### Impact
 
@@ -244,37 +213,33 @@ The UK explicitly recognised this gap and **renamed their AI Safety Institute to
 
 ### International Comparison
 
-```
 UK Approach (Feb 2025):
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚     AI SECURITY INSTITUTE (AISI)        â”‚
-â”‚                                         â”‚
-â”‚  â€¢ Frontier AI safety                   â”‚
-â”‚  â€¢ Adversarial robustness               â”‚
-â”‚  â€¢ National security applications       â”‚
-â”‚  â€¢ Cyber threats involving AI           â”‚
-â”‚  â€¢ Evaluation and testing               â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+
+AI SECURITY INSTITUTE (AISI)
+
+- Frontier AI safety
+- Adversarial robustness
+- National security applications
+- Cyber threats involving AI
+- Evaluation and testing
 
 Australia Approach (Dec 2025):
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚     AI SAFETY INSTITUTE (AISI)          â”‚
-â”‚                                         â”‚
-â”‚  â€¢ Frontier AI safety                   â”‚
-â”‚  â€¢ Alignment research                   â”‚
-â”‚  â€¢ Monitoring capabilities              â”‚
-â”‚  â€¢ International cooperation            â”‚
-â”‚  â€¢ (Security not in mandate)            â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-           +
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚              ACSC                       â”‚
-â”‚                                         â”‚
-â”‚  â€¢ Cyber security guidance              â”‚
-â”‚  â€¢ AI security publications             â”‚
-â”‚  â€¢ (Separate from AISI)                 â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
+
+AI SAFETY INSTITUTE (AISI)
+
+- Frontier AI safety
+- Alignment research
+- Monitoring capabilities
+- International cooperation
+- (Security not in mandate)
+
++
+
+ACSC
+
+- Cyber security guidance
+- AI security publications
+- (Separate from AISI)
 
 ### Impact
 
@@ -289,7 +254,7 @@ Either expand AISI mandate to explicitly include AI Security, or establish coord
 
 ---
 
-## Gap 7: Safety â‰  Security Conflation
+## Gap 7: Safety and Security Conflation
 
 ### The Gap
 
@@ -338,7 +303,7 @@ Explicitly acknowledge Safety/Security distinction. Ensure AISI mandate includes
 
 ### The Gap
 
-ACSC published "AI/ML Supply Chain Risks and Mitigations" (October 2025)â€”Australia's first standalone AI supply chain guidance.
+ACSC published "AI/ML Supply Chain Risks and Mitigations" (October 2025)—Australia's first standalone AI supply chain guidance.
 
 **However:**
 - Voluntary only
@@ -414,7 +379,7 @@ Australia's AISI receives $29.9 million, focused on safety research.
 | Jurisdiction | AI Security Research Investment |
 |--------------|--------------------------------|
 | **US NSF** | >$700 million annually in AI research (includes security) |
-| **UK AISI** | Â£100 million (expanded to security mandate) |
+| **UK AISI** | £100 million (expanded to security mandate) |
 | **Australia AISI** | $29.9 million (safety focus only) |
 
 ### Impact
@@ -434,16 +399,16 @@ Establish dedicated AI security research funding stream; include security in AIS
 
 | Gap | Impact | Effort to Close | Priority |
 |-----|--------|-----------------|----------|
-| No private sector requirements | High | High | ðŸ”´ Critical |
-| No risk classification | High | Medium | ðŸ”´ Critical |
-| Safety/Security conflation | High | Low | ðŸ”´ Critical |
-| No adversarial testing mandates | High | Medium | ðŸŸ¡ High |
-| No AI incident reporting | Medium | Medium | ðŸŸ¡ High |
-| No consolidated AI Security body | Medium | Low | ðŸŸ¡ High |
-| No foundation model governance | Medium | High | ðŸŸ¡ High |
-| Limited supply chain security | Medium | Medium | ðŸŸ¡ High |
-| No workforce strategy | Medium | Medium | ðŸŸ¢ Medium |
-| Limited research funding | Low | High | ðŸŸ¢ Medium |
+| No private sector requirements | High | High | Critical |
+| No risk classification | High | Medium | Critical |
+| Safety/Security conflation | High | Low | Critical |
+| No adversarial testing mandates | High | Medium | High |
+| No AI incident reporting | Medium | Medium | High |
+| No consolidated AI Security body | Medium | Low | High |
+| No foundation model governance | Medium | High | High |
+| Limited supply chain security | Medium | Medium | High |
+| No workforce strategy | Medium | Medium | Medium |
+| Limited research funding | Low | High | Medium |
 
 ---
 
@@ -472,10 +437,10 @@ Establish dedicated AI security research funding stream; include security in AIS
 
 ## Conclusion
 
-Australia's AI security landscape has strong foundations in ACSC technical guidance but critical gaps in mandatory requirements, institutional coordination, and private sector coverage. The National AI Plan's focus on AI Safety leaves AI Security without dedicated national attention.
+Australia's AI security landscape has strong foundations in ACSC technical guidance but critical gaps in mandatory requirements, institutional coordination, and private sector coverage. The National AI Plan's focus on safety over security leaves many vulnerabilities unaddressed.
 
 Closing these gaps requires:
-- Recognising Safety â‰  Security
+- Recognising Safety and Security as distinct
 - Extending mandatory requirements beyond government
 - Building AI Security institutional capability
 - Investing in research and workforce
@@ -484,4 +449,4 @@ The conversation on AI Security in Australia needs to get louder.
 
 ---
 
-[â† Back to Index](../README.md) | [International Comparison â†’](INTERNATIONAL.md) | [Knowledge Graph â†’](KNOWLEDGE-GRAPH.md)
+[Back to Index](../README.md) | [International Comparison →](INTERNATIONAL.md) | [Knowledge Graph →](KNOWLEDGE-GRAPH.md)
