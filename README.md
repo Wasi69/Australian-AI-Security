@@ -12,7 +12,7 @@
 
 Australia's National AI Plan was released on 2 December 2025. AI Security didn't make the cut.
 
-This repository exists to fill that gapâ€”consolidating every federal and state/territory AI security document into a single, navigable resource. Because if the government won't map AI Security, the community will.
+This repository exists to fill that gap, consolidating every federal and state/territory AI security document into a single, navigable resource. Because if the government won't map AI Security, the community will.
 
 ---
 
