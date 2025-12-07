@@ -54,7 +54,7 @@ Primary technical guidance for AI security from Australia's cyber security autho
 |----------|------|------|---------|
 | **Advisory 2024-003: AI-Enabled Phishing** | Feb 2024 | Alert | Increased sophistication in AI-generated phishing |
 | **Advisory 2024-007: LLM Prompt Injection** | May 2024 | Alert | Prompt injection attack patterns and mitigations |
-| **Advisory 2025-002: Deepfake Detection** | Jan 2024 | Guidance | Identifying AI-generated media in targeted attacks |
+| **Advisory 2025-002: Deepfake Detection** | Jan 2025 | Guidance | Identifying AI-generated media in targeted attacks |
 
 ---
 
